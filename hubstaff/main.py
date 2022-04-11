@@ -1,6 +1,5 @@
 from hubstaff.api.organization import Organization
 from hubstaff.exportData.exportDataToCsv import ExportDataToCsv
-from hubstaff.exportData.exportDataToExcel import ExportDataToExcel
 import time
 
 
@@ -59,5 +58,4 @@ def main():
         result.append(m)
 
     result.sort()
-    ExportDataToExcel(result).export_data()
     ExportDataToCsv(result).export_data()

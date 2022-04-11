@@ -1,3 +1,5 @@
 hubstaff/.env
 env
 .idea
+hubstaff/auth.json
+*.csv
